@@ -18,7 +18,7 @@ public class Resume extends Prototype {
         this.age = age;
     }
 
-    public void setWorkExpirence(String work) {
+    public void setWorkExperience(String work) {
         this.work = work;
     }
 

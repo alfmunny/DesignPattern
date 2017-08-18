@@ -7,14 +7,13 @@ public class Client {
     public static void main(String[] args) {
         Resume a = new Resume("Alfmunny Zhang");
         a.setPersonalProfile("30", "man");
-        a.setWorkExpirence("2017 Work at Google");
+        a.setWorkExperience("2017 Work at Google");
 
         Resume b = (Resume) a.getClone();
-        b.setWorkExpirence("2016 Work at Microsoft");
+        b.setWorkExperience("2016 Work at Microsoft");
 
         Resume c = (Resume) a.getClone();
-        c.setWorkExpirence("2016 Work at Microsoft");
-
+        c.setWorkExperience("2016 Work at Microsoft");
 
         a.display();
         b.display();
